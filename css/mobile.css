@@ -1,0 +1,150 @@
+.blue-background{
+    width: 400px;
+}
+.light-background{
+    top: 80px;
+    width: 400px;
+}
+.container{
+    width: 65vw;
+}
+.boxx{
+    width: 70%;
+    height: 520px;
+}
+
+@media (max-width: 1150px){
+    .container{
+        width: 75vw;
+    }
+    .blue-background{
+        width: 300px;
+        height: 450px;
+    }
+    .light-background{
+        top: 80px;
+        width: 350px;
+    }
+}
+@media (max-width: 1000px){
+    .blue-background{
+        width: 250px;
+        height: 400px;
+    }
+    .light-background{
+        width: 250px;
+        height: 500px;
+        right: -100px;
+        top: 200px;
+    }
+    .boxx{
+        width: 80%;
+    }
+}
+@media (max-width: 870px){
+    .container{
+        width: 80vw;
+    }
+}
+@media (max-width: 820px){
+    .container{
+        width: 85vw;
+    }
+    .boxx{
+        width: 85%;
+    }
+}
+@media (max-width: 770px){
+    .container{
+        width: 90vw;
+    }
+}
+@media (max-width: 700px){
+    .boxx{
+        width: 90%;
+    }
+}
+@media (max-width: 650px){
+    .boxx{
+        width: 100%;
+    }
+    .box-2 {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 600px){
+    body {
+        overflow: visible;
+        overflow-x: hidden;
+    }
+    #page{
+        height: 1000px;
+    }
+    .container{
+        width: 60vw;
+        margin: auto;
+        left: 0; 
+        right: 0; 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .light-background{
+        width: 250px;
+        height: 300px;
+        right: -100px;
+        top: 700px;
+    }
+    .boxx{
+        width: 80%;
+        margin: 0 auto 5rem;
+    }
+    .box-2 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .box-2 p {
+        line-height: 2;
+    }
+}
+
+@media (max-width: 550px) {
+    .boxx{
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        width: 70vw;
+    }
+    .boxx{
+        width: 90%;
+    }
+}
+@media (max-width: 450px) {
+    .container{
+        width: 80vw;
+    }
+    .boxx{
+        width: 90%;
+    }
+    .blue-background{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media (max-width: 365px) {
+    .container{
+        width: 85vw;
+    }
+}
+@media (max-width: 300px) {
+    .container{
+        width: 95vw;
+    }
+    .boxx{
+        width: 100%;
+    }
+}
